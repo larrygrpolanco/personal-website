@@ -1,0 +1,122 @@
+Larry Grullon-Polanco
+Tampa, FL • larrygrpolanco@gmail.com • LinkedIn • GitHub
+
+
+SUMMARY
+
+Highly organized and proactive research support professional with over 5 years of combined experience in project coordination, data management, process automation, and stakeholder engagement. Proven ability to manage complex logistics, develop efficient data workflows (including Python automation and REDCap), and ensure research integrity through meticulous documentation and protocol adherence (including IRB compliance). Seeking to use and grow  analytical, technical, and collaborative skills to contribute to impactful clinical research as a Research Project Specialist at Moffitt Cancer Center.
+
+
+EDUCATION
+
+UNIVERSITY OF SOUTH FLORIDA	Tampa, FL
+M.A. Applied Linguistics	may 2024
+4.0 GPA 
+Awards: College of Arts and Sciences Gratitude Scholarship in Applied Linguistics
+
+FLORIDA STATE UNIVERSITY	Tallahassee, FL
+B.A. Education	dec 2018
+
+SELECTED RESEARCH & DATA PROJECTS
+
+MULTI-SOURCE DATA ANALYSIS: TAIWAN ELECTION 2024	2024
+Team Lead Researcher | University of South Florida
+Gathered and analyzed 290k social media communications (Brandwatch, NodeXL) for Taiwan's 2024 election data journalism project.
+Led project tasks and milestones ensuring timely analysis and reporting
+Presented analytical findings through visualization tools to communicate complex intelligence patterns to non-technical stakeholders
+YOUTUBE ACADEMIC SPOKEN ENGLISH CORPUS	2024
+Researcher | Independent
+Built Python/API system to collect, process, and analyze 58M-word academic corpus (9k+ sources)
+Implemented systematic data structuring, tagging, and validation to ensure research reliability
+Developed filtering algorithms achieving 97% content classification accuracy
+
+
+PROFESSIONAL EXPERIENCE
+
+FULBRIGHT TAIWAN, FOUNDATION FOR SCHOLARLY EXCHANGE	Taipei, Taiwan
+English Teaching Assistant & Volunteer Program Coordinator	aug 2024 - jun 2025
+
+Planned and executed a comprehensive volunteer tutoring program (60+ tutors, 20+ events), overseeing project logistics including scheduling, resource management, multi-site coordination, and participant surveying
+Developed and documented systematic program processes, including structured sign-ups and capacity controls; monitored program progress and adapted based on feedback (300+ forms) to meet evolving needs
+Liaised with internal and external stakeholders (Fulbright administrators, external organizations, participants) to facilitate communication, collaboration, and negotiate resource support, ensuring program continuity
+
+RIGHTPATH RESEARCH AND INNOVATION CENTER	Tampa, FL
+Bilingual Data Collection Specialist	aug 2022 - aug 2024
+
+Promoted from Data Collector to Research Assistant; Trained 8 Bilingual Data Collection Specialists, ensuring adherence to research protocols
+Maintained IRB compliance and data security using REDCap for participant assessments, secure data handling, de-identification, and access controls; managed informed consent
+Automated transcript cleaning, data transfer, and coding templates with Python, reducing processing time by 95% (25 to 1 min); designed tools and instructions for easy team use
+Developed and documented standardized data handling procedures and workflow guides for research team members, ensuring consistent data processing and facilitating efficient data management
+Cleaned, structured, and performed statistical analysis on large bilingual datasets (150+ transcripts) to facilitate researcher analysis.
+
+UNIVERSITY OF SOUTH FLORIDA	Tampa, FL
+Graduate Assistant	aug 2022 - may 2024
+
+Tutored 40+ students (Spanish/Chinese), incorporating metacognitive strategies; delivered job-specific English instruction to campus employees.
+
+ACADEMY PREP CENTER	Tampa, FL
+Music Program Director/Educator	feb 2020 - jul 2022
+
+Managed project timelines and deliverables for annual music program events (~130 performers), balancing competing priorities and stakeholder needs across 50+ hour work weeks to meet goals on schedule
+Coordinated all logistical aspects of large-scale annual events, including multi-location rehearsal scheduling, equipment inventory management, travel arrangements, and budget tracking, ensuring seamless execution
+
+
+APPLIED TECHNOLOGY PROJECTS
+
+SABR Automated Coding Tool
+Developed a research efficiency solution that reduced qualitative analysis time from days to minutes for non-technical researchers 
+Implemented quality control processes that achieved 78% agreement with human coders during validation testing 
+Created user-friendly interfaces that enabled research team members with varying technical abilities to maintain consistent data quality
+
+Fulbright Planner
+Designed an AI planning application that uses Taiwan's Ministry of Education standards to generate customized educational materials for novice Fulbright teaching assistants in diverse teaching contexts
+Improved through a systematic development process with data and feedback from 50+ beta testers
+Engineered multi-stage generation workflows that integrate educational standards and pedagogical approaches, providing educators with 3-4 hours of time savings per lesson plan 
+
+
+SKILLS
+
+Research & Clinical Tools: 
+REDCap, IRB Compliance, SPSS, Atlas.ti, Microsoft Office Suite, Process Documentation
+Data Management: 
+SQL, Data Structuring, Data Cleaning & Processing, Data Validation, Research Synthesis
+Technical Skills: 
+Python, JavaScript, Tableau, NodeXL, GitHub, Automation Solutions 
+Research Communication:  
+Stakeholder Management, Technical Writing & Reporting, Participant Communication & Recruitment, Bilingual Communications (Spanish, Chinese), Experienced presenter at academic conferences
+
+LANGUAGES
+
+English (native)
+Spanish (proficient-heritage)
+Chinese (conversational)
+
+
+Cover letter
+Dear Moffitt Hiring Team,
+I am writing to express my deep interest in the Research Project Specialist position. Moffitt holds personal
+significance for me, having supported family and friends through their treatment, and I've long admired its
+dedication to research. As I prepare to complete my Fulbright grant commitment in June 2025, I have been
+
+reflecting on my career path which has taken me from music to research. I am at a point where I want a long-
+term career that aligns with my values, my ability, and allows me to learn and grow right here in Tampa.
+
+I own way too many succulents. They take patience, attention, consistency, and understanding how small
+adjustments make a big difference over time. I like to approach work similarly, with dedication and a focus on
+creating organized, robust, and easy-to-follow systems. My diverse background, including automating data
+workflows at Rightpath and managing adaptable logistics for multi-city volunteer programs in Taiwan, has
+taught me how to optimize processes and manage details effectively to support larger goals.
+While not a clinical scientist by training, I excel at the operational backbone of research: organizing complex
+information, solving logistical puzzles, and building efficient, functional structures. I value collaboration; I really
+enjoyed the weekly deep dives with researchers at Rightpath to ensure the data was exactly what they needed
+and appreciated the friendships we developed. The core skills required for this role, meticulous data handling,
+coordinating project activities, and documenting procedures, are ones I have actively developed and genuinely
+enjoy applying.
+I'm at a point where I'm ready to commit to a long-term career, and this role at Moffitt feels like the right place
+to do that. I'm eager to bring my skills in data and process to support your critical research. I also bring a strong
+foundation in building rapport and communicating clearly, through my time as an educator, which I believe is
+vital. Just as importantly, I'm ready to fully commit to a long-term career at Moffitt, eager to learn the specifics
+of endocrine oncology and acquire any certifications or training needed. I'm confident I can grow significantly in
+this position.
+Thank you for considering my path and genuine interest. I welcome the chance to discuss how my dedication
+and experience can support your research efforts.

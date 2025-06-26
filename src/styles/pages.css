@@ -1,0 +1,176 @@
+/*
+ * Shared Page Styles
+ * 
+ * Common styles used across all page components to maintain consistency.
+ * Import this file in each page's CSS file to use these base styles.
+ * 
+ * Available CSS Classes:
+ * .page-header-section - Page header area
+ * .page-header-container - Header content container
+ * .page-title - Main page title
+ * .page-subtitle - Page subtitle/description
+ * .content-section - Main content sections
+ * .content-container - Content area container
+ * .section-title - Section headings
+ * .section-description - Section descriptions
+ * .content-grid - Grid layout for content items
+ * .content-item - Individual content items
+ * .item-title - Content item titles
+ * .item-description - Content item descriptions
+ * .alt-bg - Alternate background color
+ * .placeholder-content - Placeholder content styling
+ * .placeholder-text - Placeholder text styling
+ * 
+ * Design Philosophy:
+ * - Consistent spacing and typography
+ * - Mobile-first responsive design
+ * - Uses same custom properties as header/footer
+ * - Foundation for future "Her" aesthetic theming
+ */
+
+/* Page Header Styles */
+.page-header-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.page-header-container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Content Section Styles */
+.content-section {
+  padding: 4rem 0;
+}
+
+.content-container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Content Grid Styles */
+.content-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.content-item {
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+}
+
+.item-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Alternate Background */
+.alt-bg {
+  background-color: #f8f9fa;
+}
+
+/* Placeholder Content */
+.placeholder-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #dee2e6;
+}
+
+.placeholder-text {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .page-header-section {
+    padding: 4rem 0;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+  }
+  
+  .page-subtitle {
+    font-size: 1.3rem;
+  }
+  
+  .page-header-container,
+  .content-container {
+    padding: 0 2rem;
+  }
+  
+  .content-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .page-header-section {
+    padding: 5rem 0;
+  }
+  
+  .content-section {
+    padding: 5rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.25rem;
+  }
+}
