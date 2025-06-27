@@ -2,120 +2,172 @@
 
 ## Current Work Focus
 
-**Phase 1: Skeleton Structure Creation**
-- Building foundational website architecture with Vite + React
-- Creating comprehensive memory bank documentation
-- Establishing component structure and routing foundation
-- Setting up responsive navigation system
+**Phase 1: Foundation & Structure Implementation**
+- Building SvelteKit-based website architecture with "Her" aesthetic
+- Creating comprehensive memory bank documentation for Svelte approach
+- Establishing reusable component system and routing foundation
+- Setting up responsive navigation and global layout system
 
 ## Recent Changes
 
-### Memory Bank Creation
-- **projectbrief.md**: Core project requirements and vision
-- **productContext.md**: User experience goals and success metrics
-- **systemPatterns.md**: Technical architecture and component relationships
-- **techContext.md**: Technology stack and development patterns
+### Memory Bank Complete Rewrite
+- **projectbrief.md**: Updated for SvelteKit approach and portfolio focus
+- **productContext.md**: Refined for career positioning and book journal goals
+- **techContext.md**: Complete SvelteKit technology stack documentation
+- **systemPatterns.md**: Component architecture and implementation patterns
 - **activeContext.md**: Current status and immediate next steps
 
-### Project Setup Analysis
-- Examined existing Vite + React boilerplate
-- Confirmed clean foundation with React 19.1.0 and modern tooling
-- Identified need for React Router installation
-- Planned component directory structure
+### Project Transition Analysis
+- Transitioned from React to SvelteKit for simpler development
+- Confirmed clean SvelteKit foundation with modern tooling
+- Identified 7-page structure: Home, Linguistics, Teaching, Music, Portfolio, Writing, About
+- Planned "Her" aesthetic implementation with detailed style guide
 
 ## Next Steps
 
 ### Immediate Tasks (Current Session)
-1. **Install React Router**: Add routing capability for multi-page navigation
-2. **Create Directory Structure**: Set up organized component and page folders
-3. **Build Layout Components**: Header, Navigation, Footer with responsive design
-4. **Implement Basic Routing**: Set up routes for all main sections
-5. **Create Page Skeletons**: Basic structure for Home, Research, Teaching, Creative, Writing, About
+1. **Global Layout Setup**: Create +layout.svelte with navigation and "Her" aesthetic
+2. **Core Components**: Build Card.svelte, Hero.svelte, and Navigation.svelte
+3. **CSS Foundation**: Implement "Her" aesthetic variables and typography system
+4. **Page Structure**: Create all 7 main routes with placeholder content
+5. **Basic Routing**: Test navigation and ensure all routes work correctly
 
 ### Short-term Goals (Next Sessions)
-1. **Content Integration**: Add real content from resume and personal background
-2. **Personal Vignettes**: Create components for small personal stories
-3. **Responsive Testing**: Ensure mobile-first design works across devices
-4. **Navigation Polish**: Smooth hamburger menu and active state handling
+1. **Content Integration**: Add real achievements from resume and background
+2. **Writing System**: Implement JSON-based blog with dynamic routing
+3. **Visual Polish**: Refine "Her" aesthetic implementation and interactions
+4. **Mobile Optimization**: Ensure responsive design works across devices
 
 ## Active Decisions and Considerations
 
-### Navigation Structure Decision
-**Final Structure**: 6 main pages with clean top navigation
-- **Home**: Current role prominence + brief overview
-- **Research**: Linguistics work, publications, conferences
-- **Teaching**: Education experience, Fulbright achievement
-- **Creative**: Music + Programming (combined for flexibility)
-- **Writing**: Book reflections, personal essays
-- **About**: Personal story, detailed background, contact
+### Site Structure Decision
+**Final Structure**: 7 main pages with clean navigation
+- **Home**: Current Moffitt role + brief overview
+- **Linguistics**: Research, publications, conferences, academic work
+- **Teaching**: Education experience, Fulbright achievement, philosophy
+- **Music**: Performance, education, recordings, creative work
+- **Portfolio**: Coding projects, tools, technical accomplishments
+- **Writing**: Book reflections with dynamic routing and JSON management
+- **About**: Personal story, detailed background, contact information
 
 ### Technical Approach Decisions
-- **CSS Strategy**: Traditional CSS with descriptive class names + custom properties
-- **React Patterns**: Simple functional components with educational comments
-- **Mobile Navigation**: Hamburger menu that transforms top navigation
-- **Content Flexibility**: Modular components for easy reorganization
+- **SvelteKit**: File-based routing with simple component architecture
+- **CSS Strategy**: "Her" aesthetic with custom properties and traditional CSS
+- **Content Management**: Source code editing with JSON for writing section
+- **Component Philosophy**: Reusable Card and Hero components across all sections
 
-### Design Philosophy
-- **Skeleton First**: Build clean structure before aesthetic implementation
-- **Future-Ready**: Architecture supports "Her" movie aesthetic vision
-- **Educational**: Code includes learning-focused comments and explanations
-- **Personal Touch**: Space for vignettes and personal moments throughout
+### Content Philosophy
+- **"Less Text, More Impact"**: Each achievement in 1-3 sentences maximum
+- **Card-based Presentation**: Consistent visual format across all sections
+- **Portfolio Focus**: Positioning for future career opportunities and PhD applications
+- **Personal Touch**: Book journal for intellectual depth and ongoing reflection
 
 ## Important Patterns and Preferences
 
 ### Component Organization
 ```
 src/
-├── components/
-│   ├── Layout/          # Header, Navigation, Footer
-│   ├── Sections/        # ContentSection, HeroSection
-│   └── Common/          # Reusable UI components
-├── pages/               # Route-based page components
-├── styles/              # CSS with component documentation
-└── assets/              # Images, documents, icons
+├── routes/                    # SvelteKit file-based routing
+│   ├── +layout.svelte        # Global layout
+│   ├── +page.svelte          # Home page
+│   ├── [section]/+page.svelte # Individual sections
+│   └── writing/              # Dynamic routing for posts
+├── lib/
+│   ├── components/           # Reusable components
+│   └── styles/               # CSS organization
 ```
 
-### CSS Class Naming Convention
-- Descriptive, semantic names (`.hero-section`, `.nav-primary`)
-- Component-specific prefixes (`.home-hero`, `.research-grid`)
-- State classes (`.nav-open`, `.active-link`)
-- Responsive modifiers (`.mobile-only`, `.desktop-grid`)
+### "Her" Aesthetic Implementation
+- **Color Palette**: Cream backgrounds (#F4F0E9), charcoal text (#3A3232), red accents (#D95B43)
+- **Typography**: Lora serif for headings, Inter sans-serif for body text
+- **Effects**: Blurred backgrounds, subtle hover animations, generous whitespace
+- **Mobile-First**: Responsive design starting with mobile experience
 
-### React Learning Focus
-- **Component Composition**: Building complex UIs from simple pieces
-- **Props Passing**: Clean data flow between components
-- **Functional Components**: Modern React with hooks
-- **Best Practices**: Clean, readable, maintainable code patterns
+### Content Data Patterns
+```javascript
+const achievement = {
+  title: "Achievement Title",
+  description: "1-3 sentence impact description",
+  link: "optional-url",
+  date: "optional-date"
+};
+```
 
 ## Learnings and Project Insights
 
-### User Requirements Clarity
-Larry's vision is clear: prioritize aesthetics and clean navigation over complex functionality. The "Her" movie aesthetic inspiration provides strong design direction for future phases.
+### Technology Choice Validation
+SvelteKit provides the simplicity Larry wanted while maintaining modern web development capabilities. File-based routing eliminates complex configuration.
 
-### Content Strategy Understanding
-The multifaceted background requires careful balance - showcase diversity without overwhelming visitors. Personal vignettes will be key to creating emotional connection.
+### Content Strategy Clarity
+The "less text, more impact" philosophy aligns perfectly with card-based presentation. Visitors can quickly scan achievements without overwhelming detail.
 
-### Technical Simplicity Value
-Keeping React patterns simple serves dual purpose: easier maintenance and better learning experience. Traditional CSS approach provides flexibility for future theming.
+### Aesthetic Implementation
+The detailed "Her" style guide provides clear direction for consistent visual implementation across all components and pages.
 
-### Flexibility Importance
-Larry emphasized content reorganization needs - the modular component approach will support changing priorities and interests over time.
+### Maintenance Simplicity
+Source code editing for content updates maintains Larry's desired simplicity while providing full control over presentation and organization.
 
 ## Current Challenges
 
+### Component Design Balance
+Creating components flexible enough for different content types while maintaining visual consistency across all sections.
+
 ### Content Prioritization
-Balancing comprehensive background showcase with clean, non-overwhelming presentation requires careful information architecture.
+Balancing comprehensive background showcase with clean, scannable presentation requires careful achievement selection and description crafting.
 
-### Aesthetic Vision Implementation
-"Her" movie aesthetic is inspiring but complex - need to build foundation that can accommodate warm, retro-futuristic, intimate styling.
-
-### React Learning Integration
-Providing educational value without over-complicating the codebase requires thoughtful commenting and pattern selection.
+### Writing System Implementation
+Building dynamic routing for book reflections while maintaining the simplicity of JSON-based content management.
 
 ## Project Context Reminders
 
-- **Primary Goal**: Clean, aesthetically excellent personal website
-- **Key Constraint**: Mobile-first responsive design
-- **Future Vision**: Warm, retro-futuristic aesthetic inspired by "Her" movie
-- **Learning Objective**: React skill development with best practices
-- **Flexibility Need**: Easy content reorganization as priorities evolve
+- **Primary Goal**: Portfolio website for future career opportunities (2-3 years out)
+- **Key Constraint**: No database - all content managed through source code
+- **Design Vision**: "Her" movie aesthetic with warm, retro-futuristic styling
+- **Content Philosophy**: "Less text, more impact" with 1-3 sentence achievements
+- **Maintenance Priority**: Easy updates through direct file editing
+
+## Phase 1 Implementation Checklist
+
+### Foundation Setup
+- [ ] Create +layout.svelte with global navigation and footer
+- [ ] Implement "Her" aesthetic CSS variables and typography
+- [ ] Build responsive Navigation.svelte component
+- [ ] Set up global styles and component architecture
+
+### Core Components
+- [ ] Create Card.svelte for achievement display
+- [ ] Build Hero.svelte for page headers with blur effects
+- [ ] Establish consistent styling patterns
+- [ ] Test component reusability across sections
+
+### Page Structure
+- [ ] Create all 7 main route directories and +page.svelte files
+- [ ] Implement Hero and Card components on each page
+- [ ] Add placeholder content following achievement data pattern
+- [ ] Test navigation between all sections
+
+### Basic Functionality
+- [ ] Verify all routes load correctly
+- [ ] Test responsive navigation on mobile and desktop
+- [ ] Ensure consistent visual presentation
+- [ ] Validate "Her" aesthetic implementation
+
+## Success Metrics for Phase 1
+
+### Technical Success
+- All 7 pages load and navigate correctly
+- Responsive design works on mobile and desktop
+- "Her" aesthetic consistently implemented
+- Clean, maintainable component architecture
+
+### Content Success
+- Consistent card-based presentation across all sections
+- Clear navigation and information hierarchy
+- Placeholder content follows established patterns
+- Foundation ready for real content integration
+
+### User Experience Success
+- Fast loading and smooth navigation
+- Visually consistent and professional appearance
+- Clear understanding of site structure and purpose
+- Mobile-friendly experience across all pages

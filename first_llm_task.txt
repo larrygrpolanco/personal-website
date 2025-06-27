@@ -1,0 +1,94 @@
+The user wants to work on their personal website using Vite and React, focusing on style and aesthetics. They want to create a memory bank and plan the project. Let me gather information about the current project structure and understand their requirements better.
+
+Key points from their message:
+
+1. They want to focus on style and aesthetics - clean, easy navigation
+
+2. They want educational React responses since they're more familiar with Svelte
+
+3. Current website structure is too busy - they want to simplify
+
+4. They want to showcase multiple facets of their life in order of importance:
+
+   - New job at Moffitt Cancer Center (most recent)
+   - Linguistics research experience
+   - Teaching experience (including Fulbright ETA)
+   - Music experience
+   - Programming projects
+   - Book reviews/writing section
+
+5. They want custom CSS classes with comments, mobile-first responsive design
+
+6. They provided their resume for reference
+
+I should first read the existing files to understand the current project structure, then ask clarifying questions about their vision for the site organization and styling preferences.
+
+Let me start by reading the current project files to understand what's already set up.
+
+I'll help you plan your personal website project and create a comprehensive memory bank. Let me first examine your current project structure to understand what's already in place.
+
+
+Perfect! I've examined your current Vite + React setup - it's a clean foundation with the standard boilerplate. Now I understand your vision for creating a sophisticated, aesthetically-focused personal website that showcases your multifaceted background while maintaining clean navigation.
+
+Based on your detailed description and resume, I can see you have an impressive range of experiences to showcase. Before I create a comprehensive plan and memory bank, I have some clarifying questions to ensure we design the optimal structure and user experience:
+
+## Site Structure & Navigation Questions:
+
+1. __Primary Navigation Style__: You mentioned wanting manageable pages with logical organization using tabs. Would you prefer:
+
+   - A single-page application with smooth scrolling sections and a sticky navigation?
+   - Multiple pages with a clean top navigation bar?
+   - A sidebar navigation approach?
+   - Something else entirely?
+
+2. __Content Prioritization__: Given your preference order (Moffitt job → Linguistics → Teaching → Music → Programming → Writing), would you like:
+
+   - The home page to feature a brief intro + highlight your new Moffitt role prominently?
+   - Each major area to have its own dedicated section/page?
+   - Some areas combined (e.g., Teaching + Music together since both are educational)?
+
+3. __Book Reviews/Writing Section__: You mentioned this as a "public journal" - are you envisioning:
+
+   - A blog-style layout with posts/entries?
+   - A more curated collection of reflections?
+   - Integration with the main site or a separate section?
+
+## Design & Aesthetic Questions:
+
+4. __Visual Style Preferences__: You emphasized style and aesthetics - do you have preferences for:
+
+   - Color palette (professional, warm, minimalist, etc.)?
+   - Typography style (modern, classic, playful)?
+   - Overall feel (corporate-clean, academic, creative, etc.)?
+
+5. __Personal Touches__: You want to capture "small personal moments" - are you thinking:
+
+   - Subtle animations or interactions?
+   - Personal photos/imagery?
+   - Unique visual elements that reflect your personality?
+
+6. __Mobile-First Approach__: For the responsive design, should we prioritize:
+
+   - Hamburger menu for mobile navigation?
+   - Card-based layouts that stack well?
+   - Specific mobile interactions you've seen and liked?
+
+## Technical Preferences:
+
+7. __React Learning Focus__: Since you want educational responses, are there specific React concepts you'd like to explore:
+
+   - Component composition patterns?
+   - State management approaches?
+   - Custom hooks?
+   - Performance optimization techniques?
+
+8. __CSS Architecture__: You mentioned custom CSS classes with comments - would you prefer:
+
+   - CSS Modules approach?
+   - Styled-components?
+   - Traditional CSS with a specific naming convention (BEM, etc.)?
+   - CSS custom properties for theming?
+
+These answers will help me create a detailed architectural plan and comprehensive memory bank that captures your vision perfectly. What aspects resonate most with you?
+
+1. Multiple pages with a clean top navigation bar? And this is relevant so I will mention it now, but I want to tackle this deeper in another seperate task as it demands a lot of attention and back and forth. Right now we are just setting up the skeleton not the color and flair, but I want the website to be warm, retro-futuristic, and intimate. My main insiration will be the movie HER. They used a lot of muted primary colors mostly red. I like the fact that they had this very retro look to it while still looking modern. I will go through some reference photos and break it down later, but just so you know the skeleton design should cater to this idea. For example asking "how can we set up a Multiple pages with a clean top navigation bar in it's most basic and stripped down form which can accommodate a specific aesthetic when we get to that stage. Content Prioritization: Given your preference order (Moffitt job → Linguistics → Teaching → Music → Programming → Writing), would you like: - Each major area to have its own dedicated section/page? - Some areas combined (e.g., Teaching + Music together since both are educational)? This should be all be easily customizable too. As my mind changes and I want to be able to move things around. That should be easy with react components right. I am also not sure about the current order that will change as my interest and goals grow and cahnge Book Reviews/Writing Section__: You mentioned this as a "public journal" - are you envisioning: - A more curated collection of reflections - It's own separate section, but in the same style ## Design & Aesthetic Questions: 4. __Visual Style Preferences__: You emphasized style and aesthetics - do you have preferences for: My inspiration is the movie HER I will give you a break down from google of the style, but do not put too much emphasis on this now. I want to really dig into this later and give it more attetnion The aesthetic of the movie "Her" is best described as warm, retro-futuristic, and intimate. It blends a slightly futuristic setting with a nostalgic, almost dreamlike quality, achieved through a specific color palette, fashion choices, and production design. The film's visuals evoke a sense of softness, comfort, and a heightened emotional atmosphere. Here's a more detailed breakdown: Color Palette: The film utilizes a warm color palette, dominated by coral, peach, and gold tones, creating a sense of intimacy and nostalgia. The absence of prominent blue hues, often associated with futuristic settings, further contributes to the warm and inviting feel. Fashion: The characters in "Her" wear a mix of modern and slightly retro-inspired clothing, with band collar shirts, high-waisted trousers, and a lack of visible belts or hard angles in the clothing. This style, particularly Joaquin Phoenix's character's "sad boy" aesthetic, contributes to the film's unique visual identity. Production Design: The future depicted in "Her" is not one of clunky tech or dystopian excess. Instead, it's a refined and elegant vision of a plausible future, marked by sleek, minimalist design and a focus on livable spaces. Overall Atmosphere: The combination of these elements creates a visually appealing and emotionally resonant experience, enhancing the film's exploration of love, loneliness, and human connection in a technologically advanced world. 5. __Personal Touches__: You want to capture "small personal moments" - are you thinking: - Personal photos - Stories and reflections connected to what is being highlighted like vinettes that reflect me and my experience. This should be simple really 6. __Mobile-First Approach__: For the responsive design, should we prioritize: - Hamburger menu for mobile navigation is a classic and you can't go wrong ## Technical Preferences: 7. __React Learning Focus__: Since you want educational responses, are there specific React concepts you'd like to explore: - Component composition patterns - Sure - State management approaches - NO - Custom hooks - NO - Performance optimization techniques - NO Do not stress this at all. I want this website to use the most basic react features. This website should be simple and should lean on clean design/UX and simple messaging. I meant learning focus more like best practices basic, but this is not the focus at all. I just may make rookie mistakes. 8. __CSS Architecture__: You mentioned custom CSS classes with comments - would you prefer: - CSS Modules approach? - Styled-components? - Traditional CSS with a specific naming convention (BEM, etc.)? - CSS custom properties for theming? I'm not sure what the differences are. I want what is simpliest and most straight foward to an LLM and novice web developer for what I exaplined above.
