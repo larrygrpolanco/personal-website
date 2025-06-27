@@ -1,7 +1,7 @@
 <script>
 	export let title;
 	export let subtitle = null;
-	export let backgroundImage = null;
+	export let backgroundImage = "images/cityscape.jpeg";
 	export let overlay = true;
 </script>
 
@@ -21,7 +21,7 @@
 <style>
 	.hero {
 		position: relative;
-		min-height: 40vh;
+		min-height: 20vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -30,7 +30,7 @@
 	}
 
 	.hero.has-bg {
-		min-height: 60vh;
+		min-height: 40vh;
 		background-color: var(--c-slate);
 	}
 
@@ -107,11 +107,11 @@
 	/* Responsive Design */
 	@media (max-width: 768px) {
 		.hero {
-			min-height: 35vh;
+			min-height: 21vh;
 		}
 
 		.hero.has-bg {
-			min-height: 50vh;
+			min-height: 30vh;
 		}
 
 		.hero-content {
@@ -129,11 +129,11 @@
 
 	@media (max-width: 480px) {
 		.hero {
-			min-height: 30vh;
+			min-height: 10vh;
 		}
 
 		.hero.has-bg {
-			min-height: 45vh;
+			min-height: 15vh;
 		}
 
 		.hero-content {
